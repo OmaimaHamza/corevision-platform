@@ -1,0 +1,172 @@
+{
+    "success": true,
+    "hosts_count": 5,
+    "services_count": 14,
+    "backends_count": 1,
+    "contacts_count": 1,
+    "hosts": [
+        {
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "last_check": "2025-06-29 00:38:20",
+            "duration": "1d 2h 13m 50s",
+            "status_info": "CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "host": "nagios-server",
+            "status": "UP",
+            "last_check": "2025-06-29 00:37:08",
+            "duration": "3d 7h 29m 5s",
+            "status_info": "PING OK - Packet loss = 0%, RTA = 0.11 ms"
+        },
+        {
+            "host": "win-pc1",
+            "status": "UP",
+            "last_check": "2025-06-29 00:38:08",
+            "duration": "1h 2m 5s",
+            "status_info": "PING OK - Packet loss = 0%, RTA = 12.96 ms"
+        },
+        {
+            "host": "win-pc2",
+            "status": "UP",
+            "last_check": "2025-06-29 00:36:31",
+            "duration": "2h 48m 42s",
+            "status_info": "PING OK - Packet loss = 0%, RTA = 9.91 ms"
+        },
+        {
+            "host": "win-pc3",
+            "status": "DOWN",
+            "last_check": "2025-06-29 00:37:41",
+            "duration": "1h 17m 35s",
+            "status_info": "CRITICAL - Host Unreachable (192.168.11.110)"
+        }
+    ],
+    "services": [
+        {
+            "host": "nagios-server",
+            "service": "Current Load",
+            "status": "OK",
+            "last_check": "2025-06-29 00:39:53",
+            "duration": "2d 20m 37s",
+            "attempt": "HARD",
+            "status_info": "OK - load average: 0.96, 1.11, 0.71"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Current Users",
+            "status": "OK",
+            "last_check": "2025-06-29 00:38:36",
+            "duration": "3d 7h 25m 18s",
+            "attempt": "HARD",
+            "status_info": "USERS OK - 2 users currently logged in"
+        },
+        {
+            "host": "nagios-server",
+            "service": "HTTP",
+            "status": "OK",
+            "last_check": "2025-06-29 00:38:47",
+            "duration": "1d 3h 27m 30s",
+            "attempt": "HARD",
+            "status_info": "HTTP OK: HTTP\/1.1 200 OK - 10945 bytes in 0.014 second response time"
+        },
+        {
+            "host": "nagios-server",
+            "service": "PING",
+            "status": "OK",
+            "last_check": "2025-06-29 00:35:23",
+            "duration": "3d 59m 43s",
+            "attempt": "HARD",
+            "status_info": "PING OK - Packet loss = 0%, RTA = 0.13 ms"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Root Partition",
+            "status": "OK",
+            "last_check": "2025-06-29 00:38:18",
+            "duration": "3d 7h 26m 46s",
+            "attempt": "HARD",
+            "status_info": "DISK OK - free space: \/ 82839 MiB (72.99% inode=93%):"
+        },
+        {
+            "host": "nagios-server",
+            "service": "SSH",
+            "status": "OK",
+            "last_check": "2025-06-29 00:40:02",
+            "duration": "3d 7h 24m 48s",
+            "attempt": "HARD",
+            "status_info": "SSH OK - OpenSSH_9.6p1 Ubuntu-3ubuntu13.11 (protocol 2.0)"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Swap Usage",
+            "status": "CRITICAL",
+            "last_check": "2025-06-29 00:37:08",
+            "duration": "3m 5s",
+            "attempt": "HARD",
+            "status_info": "SWAP CRITICAL - 6% free (199 MB out of 3695 MB)"
+        },
+        {
+            "host": "nagios-server",
+            "service": "Total Processes",
+            "status": "OK",
+            "last_check": "2025-06-29 00:39:50",
+            "duration": "3d 7h 28m 42s",
+            "attempt": "HARD",
+            "status_info": "PROCS OK: 90 processes with STATE = RSZDT"
+        },
+        {
+            "host": "win-pc1",
+            "service": "CPU Usage",
+            "status": "OK",
+            "last_check": "2025-06-29 00:31:58",
+            "duration": "58m 15s",
+            "attempt": "HARD",
+            "status_info": "OK: Percent was 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Disk C Usage",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-29 00:37:23",
+            "duration": "2d 2h 56m 40s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: The node (C) requested does not exist. You may be trying to access the 'C:\/' node."
+        },
+        {
+            "host": "win-pc1",
+            "service": "Event Log - Erreurs Système",
+            "status": "UNKNOWN",
+            "last_check": "2025-06-29 00:39:55",
+            "duration": "2d 2h 56m 40s",
+            "attempt": "HARD",
+            "status_info": "UNKNOWN: An error occurred connecting to API. (HTTP error: '500 INTERNAL SERVER ERROR')"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Processus actifs",
+            "status": "OK",
+            "last_check": "2025-06-29 00:35:29",
+            "duration": "54m 44s",
+            "attempt": "HARD",
+            "status_info": "OK: Process count was 232"
+        },
+        {
+            "host": "win-pc1",
+            "service": "RAM Usage",
+            "status": "OK",
+            "last_check": "2025-06-29 00:32:56",
+            "duration": "57m 17s",
+            "attempt": "HARD",
+            "status_info": "OK: Memory usage was 74.90 % (Available: 1.95 GiB, Total: 7.79 GiB, Free: 1.95 GiB, Used: 5.84 GiB)"
+        },
+        {
+            "host": "win-pc1",
+            "service": "Windows Defender",
+            "status": "OK",
+            "last_check": "2025-06-29 00:30:26",
+            "duration": "59m 47s",
+            "attempt": "HARD",
+            "status_info": "OK: WinDefend is running"
+        }
+    ]
+}

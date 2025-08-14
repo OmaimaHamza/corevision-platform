@@ -1,0 +1,1230 @@
+{
+    "2025-06-26": [
+        {
+            "timestamp": 1750892403,
+            "datetime": "2025-06-26 01:00:03",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750892428,
+            "datetime": "2025-06-26 01:00:28",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750892459,
+            "datetime": "2025-06-26 01:00:59",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1750892467,
+            "datetime": "2025-06-26 01:01:07",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750892530,
+            "datetime": "2025-06-26 01:02:10",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750892593,
+            "datetime": "2025-06-26 01:03:13",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1750893290,
+            "datetime": "2025-06-26 01:14:50",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "HARD",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 19.31 ms"
+        },
+        {
+            "timestamp": 1750893380,
+            "datetime": "2025-06-26 01:16:20",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Memory usage was 81.00 % (Available: 1.48 GiB, Total: 7.79 GiB, Free: 1.48 GiB, Used: 6.32 GiB)",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1750893381,
+            "datetime": "2025-06-26 01:16:21",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "SOFT",
+            "info": "1;connect to address 127.0.0.1 and port 80: Connection refused",
+            "service": "HTTP"
+        },
+        {
+            "timestamp": 1750893441,
+            "datetime": "2025-06-26 01:17:21",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "SOFT",
+            "info": "2;connect to address 127.0.0.1 and port 80: Connection refused",
+            "service": "HTTP"
+        },
+        {
+            "timestamp": 1750893501,
+            "datetime": "2025-06-26 01:18:21",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "SOFT",
+            "info": "3;connect to address 127.0.0.1 and port 80: Connection refused",
+            "service": "HTTP"
+        },
+        {
+            "timestamp": 1750893534,
+            "datetime": "2025-06-26 01:18:54",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: WinDefend is running",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1750893561,
+            "datetime": "2025-06-26 01:19:21",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;connect to address 127.0.0.1 and port 80: Connection refused",
+            "service": "HTTP"
+        },
+        {
+            "timestamp": 1750893629,
+            "datetime": "2025-06-26 01:20:29",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Percent was 0.00 %, 6.10 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750893659,
+            "datetime": "2025-06-26 01:20:59",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Process count was 252",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1750894161,
+            "datetime": "2025-06-26 01:29:21",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;HTTP OK: HTTP\/1.1 200 OK - 10945 bytes in 0.004 second response time",
+            "service": "HTTP"
+        },
+        {
+            "timestamp": 1750894219,
+            "datetime": "2025-06-26 01:30:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "1;SWAP WARNING - 15% free (548 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750894279,
+            "datetime": "2025-06-26 01:31:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "2;SWAP WARNING - 15% free (548 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750894339,
+            "datetime": "2025-06-26 01:32:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "3;SWAP WARNING - 15% free (549 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750894399,
+            "datetime": "2025-06-26 01:33:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "HARD",
+            "info": "4;SWAP WARNING - 15% free (550 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750894699,
+            "datetime": "2025-06-26 01:38:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;SWAP CRITICAL - 8% free (283 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750895299,
+            "datetime": "2025-06-26 01:48:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "HARD",
+            "info": "4;SWAP WARNING - 12% free (408 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750896015,
+            "datetime": "2025-06-26 02:00:15",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;PING CRITICAL - Packet loss = 100%"
+        },
+        {
+            "timestamp": 1750896105,
+            "datetime": "2025-06-26 02:01:45",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1750896110,
+            "datetime": "2025-06-26 02:01:50",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "UP",
+            "state_type": "HARD",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 23.86 ms"
+        },
+        {
+            "timestamp": 1750896195,
+            "datetime": "2025-06-26 02:03:15",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;(Host check timed out after 30.03 seconds)"
+        },
+        {
+            "timestamp": 1750896259,
+            "datetime": "2025-06-26 02:04:19",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 38.02 ms"
+        },
+        {
+            "timestamp": 1750897829,
+            "datetime": "2025-06-26 02:30:29",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750897859,
+            "datetime": "2025-06-26 02:30:59",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1750897909,
+            "datetime": "2025-06-26 02:31:49",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750897972,
+            "datetime": "2025-06-26 02:32:52",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750897999,
+            "datetime": "2025-06-26 02:33:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;SWAP CRITICAL - 9% free (331 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750898058,
+            "datetime": "2025-06-26 02:34:18",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750898062,
+            "datetime": "2025-06-26 02:34:22",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;PING CRITICAL - System call sent warnings to stderr Packet loss = 100%"
+        },
+        {
+            "timestamp": 1750898135,
+            "datetime": "2025-06-26 02:35:35",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750898148,
+            "datetime": "2025-06-26 02:35:48",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1750898220,
+            "datetime": "2025-06-26 02:37:00",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750898225,
+            "datetime": "2025-06-26 02:37:05",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1750898238,
+            "datetime": "2025-06-26 02:37:18",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1750898297,
+            "datetime": "2025-06-26 02:38:17",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "6;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750898299,
+            "datetime": "2025-06-26 02:38:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "HARD",
+            "info": "4;SWAP WARNING - 12% free (427 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750898310,
+            "datetime": "2025-06-26 02:38:30",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;(Host check timed out after 30.01 seconds)"
+        },
+        {
+            "timestamp": 1750898336,
+            "datetime": "2025-06-26 02:38:56",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1750898360,
+            "datetime": "2025-06-26 02:39:20",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750898381,
+            "datetime": "2025-06-26 02:39:41",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750898450,
+            "datetime": "2025-06-26 02:40:50",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;(Host check timed out after 30.03 seconds)"
+        },
+        {
+            "timestamp": 1750898452,
+            "datetime": "2025-06-26 02:40:52",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "6;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750898521,
+            "datetime": "2025-06-26 02:42:01",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750898542,
+            "datetime": "2025-06-26 02:42:22",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;(Host check timed out after 30.01 seconds)"
+        },
+        {
+            "timestamp": 1750898594,
+            "datetime": "2025-06-26 02:43:14",
+            "type": "HOST",
+            "host": "linux-virtual",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;CRITICAL - Host Unreachable (192.168.11.114)"
+        },
+        {
+            "timestamp": 1750898599,
+            "datetime": "2025-06-26 02:43:19",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;SWAP OK - 53% free (1923 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1750898615,
+            "datetime": "2025-06-26 02:43:35",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750898687,
+            "datetime": "2025-06-26 02:44:47",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1750898777,
+            "datetime": "2025-06-26 02:46:17",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;PING CRITICAL - System call sent warnings to stderr Packet loss = 100%"
+        },
+        {
+            "timestamp": 1750937486,
+            "datetime": "2025-06-26 13:31:26",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "UP",
+            "state_type": "HARD",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 14.03 ms"
+        },
+        {
+            "timestamp": 1750937546,
+            "datetime": "2025-06-26 13:32:26",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "HARD",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 18.67 ms"
+        },
+        {
+            "timestamp": 1750937637,
+            "datetime": "2025-06-26 13:33:57",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Memory usage was 75.00 % (Available: 1.95 GiB, Total: 7.79 GiB, Free: 1.95 GiB, Used: 5.85 GiB)",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1750937791,
+            "datetime": "2025-06-26 13:36:31",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: WinDefend is running",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1750937883,
+            "datetime": "2025-06-26 13:38:03",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Percent was 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %, 0.00 %",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1750937916,
+            "datetime": "2025-06-26 13:38:36",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Process count was 222",
+            "service": "Processus actifs"
+        }
+    ],
+    "2025-06-27": [
+        {
+            "timestamp": 1751012001,
+            "datetime": "2025-06-27 10:13:21",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012064,
+            "datetime": "2025-06-27 10:14:24",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012127,
+            "datetime": "2025-06-27 10:15:27",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012190,
+            "datetime": "2025-06-27 10:16:30",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012253,
+            "datetime": "2025-06-27 10:17:33",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012316,
+            "datetime": "2025-06-27 10:18:36",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "6;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012380,
+            "datetime": "2025-06-27 10:19:40",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012443,
+            "datetime": "2025-06-27 10:20:43",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012506,
+            "datetime": "2025-06-27 10:21:46",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751012569,
+            "datetime": "2025-06-27 10:22:49",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751030176,
+            "datetime": "2025-06-27 15:16:16",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1751030187,
+            "datetime": "2025-06-27 15:16:27",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: An error occurred connecting to API. (Connection error: '[Errno 113] No route to host')",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1751030257,
+            "datetime": "2025-06-27 15:17:37",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;PING CRITICAL - Packet loss = 50%, RTA = 18843.63 ms"
+        },
+        {
+            "timestamp": 1751030325,
+            "datetime": "2025-06-27 15:18:45",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING WARNING - Packet loss = 44%, RTA = 3124.84 ms"
+        },
+        {
+            "timestamp": 1751030386,
+            "datetime": "2025-06-27 15:19:46",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "SOFT",
+            "info": "1;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1751030402,
+            "datetime": "2025-06-27 15:20:02",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;PING CRITICAL - Packet loss = 54%, RTA = 14056.14 ms"
+        },
+        {
+            "timestamp": 1751030466,
+            "datetime": "2025-06-27 15:21:06",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 2.74 ms"
+        },
+        {
+            "timestamp": 1751030510,
+            "datetime": "2025-06-27 15:21:50",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "SOFT",
+            "info": "2;OK: Memory usage was 76.40 % (Available: 1.84 GiB, Total: 7.79 GiB, Free: 1.84 GiB, Used: 5.96 GiB)",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1751030787,
+            "datetime": "2025-06-27 15:26:27",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Process count was 246",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1751030899,
+            "datetime": "2025-06-27 15:28:19",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "HARD",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 72.50 ms"
+        },
+        {
+            "timestamp": 1751033247,
+            "datetime": "2025-06-27 16:07:27",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751033337,
+            "datetime": "2025-06-27 16:08:57",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751033427,
+            "datetime": "2025-06-27 16:10:27",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751033517,
+            "datetime": "2025-06-27 16:11:57",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751033592,
+            "datetime": "2025-06-27 16:13:12",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 68%, RTA = 89.53 ms"
+        },
+        {
+            "timestamp": 1751033907,
+            "datetime": "2025-06-27 16:18:27",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751033997,
+            "datetime": "2025-06-27 16:19:57",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;(Host check timed out after 30.03 seconds)"
+        },
+        {
+            "timestamp": 1751037235,
+            "datetime": "2025-06-27 17:13:55",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;(Host check timed out after 3177.50 seconds)"
+        },
+        {
+            "timestamp": 1751037298,
+            "datetime": "2025-06-27 17:14:58",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;CRITICAL - Host Unreachable (192.168.11.103)"
+        },
+        {
+            "timestamp": 1751037362,
+            "datetime": "2025-06-27 17:16:02",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 169.42 ms"
+        }
+    ],
+    "2025-06-28": [
+        {
+            "timestamp": 1751120115,
+            "datetime": "2025-06-28 16:15:15",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "SOFT",
+            "info": "1;SWAP CRITICAL - 10% free (360 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751120175,
+            "datetime": "2025-06-28 16:16:15",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "2;SWAP WARNING - 12% free (409 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751120235,
+            "datetime": "2025-06-28 16:17:15",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "SOFT",
+            "info": "3;SWAP CRITICAL - 9% free (299 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751120295,
+            "datetime": "2025-06-28 16:18:15",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;SWAP CRITICAL - 9% free (304 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751121787,
+            "datetime": "2025-06-28 16:43:07",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751121795,
+            "datetime": "2025-06-28 16:43:15",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "HARD",
+            "info": "4;SWAP WARNING - 13% free (476 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751121878,
+            "datetime": "2025-06-28 16:44:38",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;(Host check timed out after 31.02 seconds)"
+        },
+        {
+            "timestamp": 1751121942,
+            "datetime": "2025-06-28 16:45:42",
+            "type": "HOST",
+            "host": "win-pc2",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 140.29 ms"
+        },
+        {
+            "timestamp": 1751122766,
+            "datetime": "2025-06-28 16:59:26",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.101)"
+        },
+        {
+            "timestamp": 1751122789,
+            "datetime": "2025-06-28 16:59:49",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 16%, RTA = 169.24 ms"
+        },
+        {
+            "timestamp": 1751122933,
+            "datetime": "2025-06-28 17:02:13",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "UP",
+            "state_type": "HARD",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 14.38 ms"
+        },
+        {
+            "timestamp": 1751126840,
+            "datetime": "2025-06-28 18:07:20",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751126903,
+            "datetime": "2025-06-28 18:08:23",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751126966,
+            "datetime": "2025-06-28 18:09:26",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127029,
+            "datetime": "2025-06-28 18:10:29",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127092,
+            "datetime": "2025-06-28 18:11:32",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127155,
+            "datetime": "2025-06-28 18:12:35",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "6;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127218,
+            "datetime": "2025-06-28 18:13:38",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "7;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127282,
+            "datetime": "2025-06-28 18:14:42",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "8;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127345,
+            "datetime": "2025-06-28 18:15:45",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "9;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127408,
+            "datetime": "2025-06-28 18:16:48",
+            "type": "HOST",
+            "host": "win-pc3",
+            "status": "DOWN",
+            "state_type": "HARD",
+            "info": "10;CRITICAL - Host Unreachable (192.168.11.110)"
+        },
+        {
+            "timestamp": 1751127914,
+            "datetime": "2025-06-28 18:25:14",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "1;(Host check timed out after 30.01 seconds)"
+        },
+        {
+            "timestamp": 1751127931,
+            "datetime": "2025-06-28 18:25:31",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1751128005,
+            "datetime": "2025-06-28 18:26:45",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "2;(Host check timed out after 30.01 seconds)"
+        },
+        {
+            "timestamp": 1751128024,
+            "datetime": "2025-06-28 18:27:04",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1751128081,
+            "datetime": "2025-06-28 18:28:01",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1751128095,
+            "datetime": "2025-06-28 18:28:15",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "3;(Host check timed out after 30.01 seconds)"
+        },
+        {
+            "timestamp": 1751128185,
+            "datetime": "2025-06-28 18:29:45",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "4;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751128234,
+            "datetime": "2025-06-28 18:30:34",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "UNKNOWN",
+            "state_type": "HARD",
+            "info": "1;UNKNOWN: Execution exceeded timeout threshold of 58s",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1751128275,
+            "datetime": "2025-06-28 18:31:15",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "DOWN",
+            "state_type": "SOFT",
+            "info": "5;(Host check timed out after 30.02 seconds)"
+        },
+        {
+            "timestamp": 1751128339,
+            "datetime": "2025-06-28 18:32:19",
+            "type": "HOST",
+            "host": "win-pc1",
+            "status": "UP",
+            "state_type": "SOFT",
+            "info": "1;PING OK - Packet loss = 0%, RTA = 19.84 ms"
+        },
+        {
+            "timestamp": 1751128474,
+            "datetime": "2025-06-28 18:34:34",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: WinDefend is running",
+            "service": "Windows Defender"
+        },
+        {
+            "timestamp": 1751128566,
+            "datetime": "2025-06-28 18:36:06",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Percent was 23.50 %, 54.50 %, 23.50 %, 58.80 %, 47.10 %, 27.30 %, 23.50 %, 76.50 %",
+            "service": "CPU Usage"
+        },
+        {
+            "timestamp": 1751128624,
+            "datetime": "2025-06-28 18:37:04",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Memory usage was 92.50 % (Available: 0.58 GiB, Total: 7.79 GiB, Free: 0.59 GiB, Used: 7.21 GiB)",
+            "service": "RAM Usage"
+        },
+        {
+            "timestamp": 1751133770,
+            "datetime": "2025-06-28 20:02:50",
+            "type": "SERVICE",
+            "host": "win-pc1",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;OK: Process count was 242",
+            "service": "Processus actifs"
+        },
+        {
+            "timestamp": 1751134585,
+            "datetime": "2025-06-28 20:16:25",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "OK",
+            "state_type": "HARD",
+            "info": "1;SWAP OK - 22% free (783 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        }
+    ],
+    "2025-06-29": [
+        {
+            "timestamp": 1751150048,
+            "datetime": "2025-06-29 00:34:08",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "1;SWAP WARNING - 18% free (639 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751150108,
+            "datetime": "2025-06-29 00:35:08",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "2;SWAP WARNING - 18% free (661 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751150168,
+            "datetime": "2025-06-29 00:36:08",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "WARNING",
+            "state_type": "SOFT",
+            "info": "3;SWAP WARNING - 18% free (664 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        },
+        {
+            "timestamp": 1751150228,
+            "datetime": "2025-06-29 00:37:08",
+            "type": "SERVICE",
+            "host": "nagios-server",
+            "status": "CRITICAL",
+            "state_type": "HARD",
+            "info": "4;SWAP CRITICAL - 6% free (199 MB out of 3695 MB)",
+            "service": "Swap Usage"
+        }
+    ]
+}
